@@ -54,3 +54,14 @@ for (i = 1; i <= n - 1; i++)
     arr[j+ 1] = temp; // Step 5
 }
 }
+
+void display()
+{
+    cout << endl; // Output baris kosong
+    cout << "================================" << endl;
+    cout << "Total Pass = " << n - 1 << endl; // count element movement
+    cout << "================================" << endl; //Output ke layar 
+    cout << "Element Array yang telah tersusun" << endl; //Output ke layar
+    cout << "=================================" << endl; // Output ke layar
+    
+}
